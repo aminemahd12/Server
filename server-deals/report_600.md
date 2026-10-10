@@ -1,13 +1,13 @@
 # Home server for €600: Villach → Morocco
 
-*Researched 9–10 Oct 2026. Every listing below was re-opened on **10 Oct 2026** and was still active. A few shop prices come from the geizhals.at offer list because the shop's own page couldn't be opened from the research machine; each one is marked. Nothing has been bought and no seller has been contacted.*
+*Researched 9–10 Oct 2026. Every listing in the builds, variants and upgrade paths was re-opened on **10 Oct 2026** and was still active. Reference prices in the market and comparison sections were seen 9–10 Oct. A few shop prices come from the geizhals.at offer list because the shop's own page couldn't be opened from the research machine; each one is marked. Nothing has been bought and no seller has been contacted.*
 
 **Rules this report follows:**
 - **Only listings that ship to you.**
   - Austrian sellers with willhaben delivery (PayLivery) whose size/weight limit fits the item, or shops that deliver to Austria.
   - Anything whose ad says pickup only or offers no shipping is excluded. That covers 113 listings; see [`excluded_no_shipping.csv`](excluded_no_shipping.csv).
 - **Upfront cash, delivered to Villach.** Nothing has to be resold to stay within budget.
-- **Performance figures** are PassMark CPU Mark (multi-thread / single-thread) from cpubenchmark.net, matched by exact CPU id.
+- **Performance figures** are PassMark CPU Mark (multi-thread / single-thread) from cpubenchmark.net, matched by exact CPU id. The targets for "great single and multi-core" are **about 30,000 multi-thread and 3,400+ single-thread**.
 - **RAM:** 64 GB is the goal. At this budget 32 GB is accepted as a compromise, but only with 2 free slots and a priced path to 64 GB.
 - **Storage:** you said a 512 GB–1 TB SSD plus a pair of 1–2 TB drives is enough. A1–A3 can't fit the drive pair within €600, so it's a later +€105.70. The only in-budget options that include a mirror are the TAROX PC + 2 × 2 TB (€593.60, §4) and the Pfunds PC + 2 × 2 TB (€485.60, 32 GB).
 
@@ -32,14 +32,14 @@
 
 **My pick: A1.**
 - It has 2.4× the multi-core and 25% more single-core speed than A3. Today it costs €13.80 more but has 32 GB instead of 64 GB; with the RAM matched (+€105.70), it's €119.50 more.
-- Of everything checked, it's the fastest CPU that fits €600. The i9-13900K would come to €601.59.
+- Of the CPUs worth putting in a 24/7 server, it's the fastest that fits €600. The i9-13900K also fits with the cheaper PSU from §3 (€596.59), but §8 rejects it for ageing risk and because the Freezer 36 caps it.
 - The RAM gap is cheap to close later: one more 2 × 16 GB kit for €105.70 gives 64 GB. A CPU can't be upgraded that cheaply.
 
 **When to choose the others:**
 - **A2** if 64 GB on day one matters more than CPU speed. Its RAM is DDR4-2133, with 20% less bandwidth than A3's 2666 kit, so memory-bound FDTD/FEM runs can take up to ~25% longer.
 - **A3** if you want a working PC in two parcels, with Windows 11 Pro, and accept a much slower CPU.
 
-> **What €600 can't buy:** a 30,000+ CPU together with 64 GB. The cheapest such set is €630.18: the €800 report's B3 (Ryzen 9 5900X + 64 GB ECC) without its drives. With the i7-13700K and the 2666 kit it's €673.98 (B1 without drives). Under €600, 64 GB comes only with the 29,755-point i7-12700 (A2) or the 18,824-point prebuilt (A3).
+> **What €600 can't buy:** a 30,000+ CPU together with 64 GB. The cheapest such set is €630.18 (€625.18 with the cheaper PSU): the €800 report's B3 (Ryzen 9 5900X + 64 GB ECC) without its drives. With the i7-13700K and the 2666 kit it's €673.98 (B1 without drives). Under €600, 64 GB comes only with the 29,755-point i7-12700 (A2) or the 18,824-point prebuilt (A3).
 
 ---
 
@@ -58,7 +58,7 @@
 Everything goes into **your own case**. All parts are standard ATX, and the board is mATX, which fits an ATX case.
 
 **Why this build.**
-- **The best single- and multi-core speed reachable under €600.** The i9-13900K would be €601.59. The i7-13700K has 8 performance cores (CST uses only P-cores) plus 8 efficiency cores.
+- **The best single- and multi-core speed under €600 among CPUs worth running 24/7.** The i9-13900K fits only with the cheaper PSU (€596.59) and is rejected in §8. The i7-13700K has 8 performance cores (CST uses only P-cores) plus 8 efficiency cores.
 - **Integrated graphics**, so no display card is needed. Proxmox installs headless, and idle power stays low.
 - **A new board with a 2-year shop warranty.** It has 4 DDR4 slots (up to 128 GB), 2 × M.2 PCIe 4.0, 4 × SATA and 2.5 GbE.
 - **A strong PSU.** 650 W Gold with headroom, and Linux can read its power draw over USB.
@@ -71,7 +71,7 @@ Everything goes into **your own case**. All parts are standard ATX, and the boar
 | Then | 2 × 2 TB CMR HDD mirror (WD Red Plus + WD Black) | [willhaben 1759125813](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/2tb-festplatten-1759125813/) | €105.70 (one €100 offer) | Network-drive mirror |
 | Optional | TP-Link Tapo P110 smart plug, Type E (Moroccan sockets) | [geizhals → alza.at](https://geizhals.at/tp-link-tapo-p110-a3694802.html) | €22.39 | Remote power-cycle from Singapore |
 
-With all three: €820.48, the same machine as the €800 report's Build 1 apart from the RAM.
+With all three: €820.48. That's the €800 report's B1 apart from the RAM, and €18.41 more than buying B1 with the plug (€802.07) in one go.
 
 **Risks.**
 - **Raptor Lake ageing.** The 13th/14th-gen chips on Intel's list (i9, i7 and the i5-13600K/14600K) can degrade under old BIOS microcode.
@@ -140,7 +140,7 @@ With all three: €820.48, the same machine as the €800 report's Build 1 apart
 
 1. **A1/A2: the CPU first** (A1: Fritzens 13700K, or the sealed Stams 13600K; A2: Graz 12700), because used CPUs sell fastest. Ask the questions in §6 before paying.
 2. **A1/A2: the RAM**, for the same reason.
-3. **A1/A2: the board, PSU, cooler and SSD.** These are a shop item and slower-moving private ads.
+3. **A1/A2: the board, PSU, cooler (A1) and SSD.** These are a shop item and slower-moving private ads.
 4. **A3: the Pfunds PC first, then the Arlsdorf 64 GB kit.**
 5. Later: the second RAM kit (A1), the HDD pair and the Tapo plug.
 
@@ -161,6 +161,7 @@ Pay every private seller **through willhaben PayLivery**, which holds your money
 - **PM9A1 (Wien):** please send a CrystalDiskInfo or smartctl screenshot (percentage used, power-on hours, media errors).
 - **Freezer 36 (Gänserndorf):** are the Intel LGA1700 backplate and standoffs complete?
 - **ECC RAM (Allerheiligen, A2 only):** have the modules been tested? Would you accept PayLivery only?
+- **Straight Power 11 (Stattersdorf, A2 cheaper-PSU option):** does it power on? Is the 8-pin CPU cable included?
 - **Pfunds PC (A3):**
   - A BIOS photo and a CPU-Z Memory-tab screenshot.
   - The PSU's age.
@@ -177,7 +178,7 @@ Pay every private seller **through willhaben PayLivery**, which holds your money
   - Use Tailscale or WireGuard into Proxmox.
   - In the BIOS, set "Restore on AC power loss = Power On".
   - Add the Tapo P110 Type E smart plug (€22.39) so you can power-cycle the box from anywhere.
-  - None of these builds has a remote BIOS console (IPMI). A GL.iNet Comet GL-RM1 KVM (€128.99 + €5.90 at mylemon.at, per the geizhals offer list) adds one later.
+  - None of these builds has a remote BIOS console (IPMI). A GL.iNet Comet GL-RM1 KVM (€129.00 at galaxus.at with free delivery, per the geizhals offer list) adds one later.
 - **Flying it.**
   - Builds A1/A2 travel as parts in your own case, about 8–10 kg in checked baggage.
   - Take the cooler off, or pack it so it can't swing.
@@ -190,7 +191,7 @@ Pay every private seller **through willhaben PayLivery**, which holds your money
 
 | Option | Why not |
 |---|---|
-| i9-13900K (Graz, €270.60, 58,053 / 4,595) in A1 | €601.59, so just over budget. It's also the CPU most exposed to Raptor Lake ageing, and a Freezer 36 caps it well below its rated power. |
+| i9-13900K (Graz, €270.60, 58,053 / 4,595) in A1 | €601.59, or €596.59 with the cheaper PSU. It's the CPU most exposed to Raptor Lake ageing, and a Freezer 36 caps it well below its rated power, so it isn't worth it for a 24/7 server. |
 | i9-12900K (Wien, €260.60, 41,099 / 4,128) in A1 | €591.59, but the ad shows only a stock box image and a doubtful screenshot. It's slower than the 13700K for more money. |
 | New i5-14600K / i7-12700K from alternate.at in A1 | €589.79 / €597.89. They fit and come with a 2-year shop warranty, but they're slower than the used 13700K (38,355 / 4,264 and 34,235 / 4,002). A reasonable swap if a warranty matters more to you. The 14600K also needs the 0x12F BIOS first. |
 | Ryzen 9 5900X build ([5900X Wien €225.70](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/amd-ryzen-9-5900x-am4-cpu-1353259458/) + ASRock B550 Pro4 €95.90 (DiTech.at) + the same 2 × 16 GB, PSU, cooler and SSD + an HD 7750 display card €13.49) | Fits at €570.18, but it's slower than A1 on both counts (38,887 / 3,465), needs a display card, and idles about 15–20 W higher. The 5900X ad shows only stock photos. |
@@ -204,9 +205,9 @@ Pay every private seller **through willhaben PayLivery**, which holds your money
 
 - **Sources:**
   - Marketplaces: willhaben.at (tier 1) and kleinanzeigen.de (tier 2; no tier-2 item was needed here).
-  - Shops/refurbishers: DiTech.at and alternate.at (pages opened); cyberport.at, alza.at, e-tec.at, Amazon.at and galaxus.at (prices from geizhals.at offer lists); refurbed.at, afbshop.de, itsco.de, lapstore.de, harlander.com, servershop24.de.
+  - Shops/refurbishers: DiTech.at and alternate.at (pages opened); alza.at, Amazon.at and galaxus.at (prices from geizhals.at offer lists); refurbed.at, afbshop.de, itsco.de, lapstore.de, harlander.com, servershop24.de (checked; none used).
   - Not reachable from the research machine: eBay, leboncoin and Amazon product pages (Amazon prices come from geizhals.at).
 - **Shipping check:** every ad's shipping field and text was read by script, in German, Slovenian, Hungarian, Czech/Slovak and Italian. Pickup-only, no-shipping and domestic-only ads were removed.
 - **Verification:** each shortlisted listing was re-opened by a second, independent pass that looked at the photos and screenshots (RAM labels, SMART, CPU photos), then re-opened again on 10 Oct for this report.
-- **Estimates:** idle power figures are estimates from comparable measurements (Hardwareluxx idle tests of 12th-gen Intel on Z690 DDR4 boards; WD and Toshiba datasheets), not measurements of these machines.
+- **Estimates:** idle power figures are estimates from comparable measurements (Hardwareluxx idle tests of 12th-gen Intel on Z690 DDR4 boards; WD datasheets), not measurements of these machines.
 - All listings are in [`deals.csv`](deals.csv) (`used_in_build` = "€600 …").

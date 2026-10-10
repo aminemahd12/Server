@@ -1,13 +1,13 @@
 # Home server for €800: Villach → Morocco
 
-*Researched 9–10 Oct 2026. Every listing below was re-opened on **10 Oct 2026** and was still active. A few shop prices come from the geizhals.at offer list because the shop's own page couldn't be opened from the research machine; each one is marked. Nothing has been bought and no seller has been contacted.*
+*Researched 9–10 Oct 2026. Every listing in the builds, variants and upgrade paths was re-opened on **10 Oct 2026** and was still active. Reference prices in the market and comparison sections were seen 9–10 Oct. A few shop prices come from the geizhals.at offer list because the shop's own page couldn't be opened from the research machine; each one is marked. Nothing has been bought and no seller has been contacted.*
 
 **Rules this report follows:**
 - **Only listings that ship to you.**
   - Austrian sellers with willhaben delivery (PayLivery) whose size/weight limit fits the item, or shops that deliver to Austria.
   - Anything whose ad says pickup only or offers no shipping is excluded. That covers 113 listings; see [`excluded_no_shipping.csv`](excluded_no_shipping.csv).
 - **Upfront cash, delivered to Villach.** Nothing has to be resold to stay within budget.
-- **Performance figures** are PassMark CPU Mark (multi-thread / single-thread) from cpubenchmark.net, matched by exact CPU id.
+- **Performance figures** are PassMark CPU Mark (multi-thread / single-thread) from cpubenchmark.net, matched by exact CPU id. The targets for "great single and multi-core" are **about 30,000 multi-thread and 3,400+ single-thread**.
 - **RAM:** 64 GB is required at this budget.
 - **Storage:** an NVMe SSD plus a pair of 1–2 TB drives is enough, as you said.
 
@@ -40,9 +40,9 @@ Companion reports for smaller budgets: [`report_600.md`](report_600.md) and [`re
 | Parcels | 7 | 7 | 8 |
 
 **Ranking against your priorities** (CPU single + multi and 64 GB first, then upgradability, then idle power and ease):
-1. **B1.** It is the fastest of the three, the cheapest to run, and among the cheapest to buy. The Tapo smart plug (€22.39) would take it to €802.07, so buy that after the budget.
+1. **B1.** It is the fastest of the three and tied with B2 as the cheapest to run. It costs €43.80 more than B3 and €11.20 less than B2. The Tapo smart plug (€22.39) would take it to €802.07, so buy that after the budget, or use the cheaper PSU (§2) to fit it in.
 2. **B2.** It gives up about 25% of multi-core speed for a brand-new CPU with a 2-year shop warranty and no Raptor Lake ageing risk.
-3. **B3.** It's the only build with working ECC memory and has the most headroom, but it's slower per core, idles 15–20 W higher (about €14–25 a year more) and sits on the end-of-line AM4 platform.
+3. **B3.** It's the only build with working ECC memory and has the most spare budget (€64.12), but it's slower per core, idles 15–20 W higher (about €14–25 a year more) and sits on the end-of-line AM4 platform.
 
 ---
 
@@ -59,7 +59,7 @@ Companion reports for smaller budgets: [`report_600.md`](report_600.md) and [`re
 | HDD mirror: 2 × 2 TB CMR (WD Red Plus 42,180 h + WD Black 16,752 h; SMART screenshots show 0 bad sectors) | [willhaben 1759125813](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/2tb-festplatten-1759125813/) | private, Wien 17, 09.10 | €100 | €5.70 | willhaben Post (both drives in one parcel) |
 | **Total** | | | **€750.90** | **€28.78** | **€779.68** |
 | *After the budget:* TP-Link Tapo P110 smart plug, **Type E** (fits Moroccan sockets) | [geizhals → alza.at](https://geizhals.at/tp-link-tapo-p110-a3694802.html) (price from the geizhals offer list; alza's page couldn't be opened) | shop | €17.90 | €4.49 | shop delivery in AT |
-| **Total with plug** | | | | | €802.07, over budget, so buy it later |
+| **Total with plug** | | | | | €802.07, over budget, so buy it later. Or swap the RM650i for the cheaper [be quiet! Straight Power 11 Platinum 550 W](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/be-quiet-straight-power-11-platinum-1659391269/) (€45.70; cables listed, but untested by the seller), which makes it **€797.07**. |
 
 Everything goes into **your own case**. All parts are standard ATX, and the board is mATX, which fits an ATX case.
 
@@ -79,7 +79,7 @@ Everything goes into **your own case**. All parts are standard ATX, and the boar
 - **128 GB:** replace the four 16 GB modules with 4 × 32 GB.
 - **Drives:** 2 more SATA ports, plus the second M.2 slot.
 - **CPU:** a 14th-gen i7/i9 fits after a BIOS update (the board's Q-Flash Plus button flashes from a USB stick without a CPU). Keep the ~180 W power limit with this board and cooler.
-- **Remote console:** a GL.iNet Comet GL-RM1 KVM (€128.99 + €5.90 at mylemon.at, per the geizhals offer list on 10 Oct), when the budget allows.
+- **Remote console:** a GL.iNet Comet GL-RM1 KVM (€129.00 at galaxus.at with free delivery, per the geizhals offer list on 10 Oct), when the budget allows.
 
 **Variants (swap only the CPU):**
 
@@ -160,12 +160,12 @@ The same parts as B1, with the used i7-13700K swapped for a **new i7-12700K from
 
 ## 5. What about the P720 and the Ryzen 9 options you asked about earlier?
 
-| Earlier option | Status on 10 Oct | Verdict |
+| Earlier option | Status 9–10 Oct | Verdict |
 |---|---|---|
 | Lenovo P720, 2 × Xeon Gold (Waltershausen DE) | Ships only within Germany (the seller says pickup is ideal); about 30 kg | **Rejected.** Single-core 2,141 per Gold 6140 fails your target, and it's a dual-CPU machine weighing about 30 kg. |
 | Ryzen 9 5950X, Stralsund | Shipping field says "Nur Abholung" (pickup only) | **Excluded.** |
-| New Ryzen 9 5950X (cyberport.at €326.56 + €9.99) in B3 | ships | B3 would cost €846.73, **over budget**. |
-| New Ryzen 9 5900XT 16-core (cyberport.at €296.90 + €9.99) in B3 | ships | B3 would cost €817.07, **over budget**. |
+| New Ryzen 9 5950X (€319.68 + €10.99, cheapest AT shop on geizhals) in B3 | ships | B3 would cost €840.85, **over budget**. |
+| New Ryzen 9 5900XT 16-core (galaxus.at €296.90, free delivery, via geizhals) in B3 | ships | B3 would cost €807.08, **over budget**. |
 | Röschitz 5900X PC, Villach 3900X | Pickup only / no shipping | **Excluded.** |
 
 ---
@@ -198,6 +198,7 @@ Pay private sellers only **through willhaben PayLivery**, which holds your money
 - **ECC RAM (Allerheiligen, B3):** have the modules been tested? Payment through PayLivery only.
 - **HD 7750 (Dunkelsteinerwald, B3):** does the card work? A photo of it running?
 - **i9-12900K (Wien, if you choose that variant):** please send a photo of the actual chip showing its S-spec.
+- **i9-13900K (Graz, if you choose that variant):** is there an invoice? Which BIOS/microcode did it run? Any crashes or WHEA errors?
 
 ---
 
@@ -208,7 +209,7 @@ Pay private sellers only **through willhaben PayLivery**, which holds your money
   - Use Tailscale or WireGuard into Proxmox. Never expose the web UI directly.
   - In the BIOS, set "Restore on AC power loss = Power On".
   - With the Tapo P110 you can hard power-cycle the box and watch its wattage from your phone.
-  - These builds have no remote BIOS console. A GL.iNet Comet GL-RM1 KVM (€128.99 + €5.90 at mylemon.at, per the geizhals offer list) adds one later.
+  - These builds have no remote BIOS console. A GL.iNet Comet GL-RM1 KVM (€129.00 at galaxus.at with free delivery, per the geizhals offer list) adds one later.
 - **Flying it.**
   - Builds B1–B3 travel as parts in your own case, about 8–10 kg in checked baggage.
   - Take the Freezer 36 off or pack it firmly.
@@ -227,10 +228,10 @@ Pay private sellers only **through willhaben PayLivery**, which holds your money
 |---|---|
 | Used fast Intel CPUs (willhaben, PayLivery) | i7-13700K €255.70, i9-12900K €260.60, i9-13900K €270.60, i7-12700 €229.70, sealed i5-13600K €245.70 |
 | New CPUs (alternate.at) | i5-14600K €258.80, i7-12700K €266.90, i5-14500 €255.80 |
-| New B760 DDR4 boards | Gigabyte B760M DS3H DDR4 €95.90 at DiTech.at (geizhals also lists Amazon.at at €88.64); MSI PRO B760M-P DDR4 from €99.76 + €5.90 (mylemon.at, via geizhals) |
+| New B760 DDR4 boards | Gigabyte B760M DS3H DDR4 €95.90 at DiTech.at (geizhals also lists Amazon.at at €88.64); MSI PRO B760M-P DDR4 from €99.90 (e-tec.at, free delivery, via geizhals) |
 | 64 GB DDR4 | used 4 × 16 GB €165.70 (ECC 2133) to €192.99 (2666); used 2 × 32 GB €360.60; a sealed 2 × 32 GB kit from a private seller €405.70; new 2 × 32 GB from €493.12 (shop) |
 | 32 GB DDR4 | used 2 × 16 GB €105.70–142.99; a sealed, new single 32 GB module from a private seller €145.70 |
-| 2 TB HDD | used CMR €50–75 each (SMART-checked); new WD Red Plus 2 TB €152.26 at Amazon.at. The new Toshiba S300 2 TB at alternate.at is **SMR**, so avoid it for ZFS. |
+| 2 TB HDD | used CMR €55.70–80.70 each delivered (€50–75 + €5.70; SMART-checked); new WD Red Plus 2 TB €152.26 at Amazon.at. The new Toshiba S300 2 TB at alternate.at is **SMR**, so avoid it for ZFS. |
 | NVMe SSD | used Samsung 512 GB €57.99–62.67; used PM981 1 TB €101.99; new 1 TB TLC + DRAM from €194.99 |
 | PSU 550–650 W Gold | used €40.70–65.70; new be quiet! Pure Power 12 550 W €73.80 |
 
@@ -242,7 +243,7 @@ The DRAM and NAND shortage of 2025–26 is why new RAM and SSDs cost so much mor
 
 - **Sources:**
   - Marketplaces: willhaben.at (tier 1), plus kleinanzeigen.de, bolha.com, hardverapro.hu and bazos (tier 2, fallback only; none was needed in these builds).
-  - Shops/refurbishers: DiTech.at and alternate.at (pages opened); cyberport.at, alza.at, e-tec.at, Amazon.at and galaxus.at (prices from geizhals.at offer lists); refurbed.at, afbshop.de, itsco.de, lapstore.de, harlander.com, servershop24.de.
+  - Shops/refurbishers: DiTech.at and alternate.at (pages opened); alza.at, e-tec.at, Amazon.at, galaxus.at and haym.infotec (prices from geizhals.at offer lists); refurbed.at, afbshop.de, itsco.de, lapstore.de, harlander.com, servershop24.de (checked; none used).
   - Morocco: ultrapc.ma and avito.ma, as buy-on-arrival references only.
   - Not reachable from the research machine: eBay, leboncoin and Amazon product pages (Amazon prices come from geizhals.at).
 - **Shipping check:** all 316 earlier marketplace ads and every new one were re-opened by script, and their shipping field and text read in German, Slovenian, Hungarian, Czech/Slovak and Italian. Pickup-only, no-shipping, domestic-only and contradictory ads (113 in total) were removed into [`excluded_no_shipping.csv`](excluded_no_shipping.csv), with the evidence for each.
@@ -251,7 +252,7 @@ The DRAM and NAND shortage of 2025–26 is why new RAM and SSDs cost so much mor
   - Every listing in these builds was re-opened again on 10 Oct.
   - PassMark scores were matched to cpubenchmark.net by exact CPU id.
 - **Estimates, not measurements:**
-  - Idle power figures come from comparable measurements (Hardwareluxx idle tests of 12th-gen Intel on Z690 DDR4 boards; WD and Toshiba datasheets).
+  - Idle power figures come from comparable measurements (Hardwareluxx idle tests of 12th-gen Intel on Z690 DDR4 boards; WD datasheets).
   - Electricity uses the tariff above.
   - Prices can change at any time.
 - **All listings** that can be shipped are in [`deals.csv`](deals.csv). The `source_tier` column marks how easy each is to buy: tier 1 is an Austrian seller with delivery or a shop shipping to Austria. The `used_in_build` column marks which report and build use each one.

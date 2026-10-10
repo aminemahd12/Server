@@ -1,13 +1,13 @@
 # Home server for €400: Villach → Morocco
 
-*Researched 9–10 Oct 2026. Every listing below was re-opened on **10 Oct 2026** and was still active. A few shop prices come from the geizhals.at offer list because the shop's own page couldn't be opened from the research machine; each one is marked. Nothing has been bought and no seller has been contacted.*
+*Researched 9–10 Oct 2026. Every listing in the builds, variants and upgrade paths was re-opened on **10 Oct 2026** and was still active. Reference prices in the market and comparison sections were seen 9–10 Oct. A few shop prices come from the geizhals.at offer list because the shop's own page couldn't be opened from the research machine; each one is marked. Nothing has been bought and no seller has been contacted.*
 
 **Rules this report follows:**
 - **Only listings that ship to you.**
   - Austrian sellers with willhaben delivery (PayLivery) whose size/weight limit fits the item, or shops that deliver to Austria.
   - Anything whose ad says pickup only or offers no shipping is excluded. That covers 113 listings; see [`excluded_no_shipping.csv`](excluded_no_shipping.csv).
 - **Upfront cash, delivered to Villach.** Nothing has to be resold to stay within budget.
-- **Performance figures** are PassMark CPU Mark (multi-thread / single-thread) from cpubenchmark.net, matched by exact CPU id.
+- **Performance figures** are PassMark CPU Mark (multi-thread / single-thread) from cpubenchmark.net, matched by exact CPU id. The targets for "great single and multi-core" are **about 30,000 multi-thread and 3,400+ single-thread**.
 - **RAM:** 32 GB is accepted at this budget as a compromise, but only on a machine that can reach 64 GB. The cost of that upgrade is shown.
 - **Prebuilt PCs and easy purchases first**, as you asked.
 
@@ -17,7 +17,7 @@
 
 **Buy the complete PC from Pfunds (Tirol): €370 + €9.90 willhaben delivery = €379.90.**
 
-It is the **only** complete PC under €400 that passes every rule. The sweep went through about 2,230 willhaben PC listings priced €150–560, ran more than 100 keyword searches on kleinanzeigen and willhaben, and checked six refurbishers. The next-cheapest machines that qualify are listed in §5; all of them cost more than €400.
+It is the **only** complete PC under €400 that passes every rule. The sweep went through about 2,230 willhaben PC listings priced €150–560, ran more than 100 keyword searches on kleinanzeigen and willhaben, and checked six refurbishers. The other complete PCs considered are in §5; none of them qualifies under €400.
 
 | | **Pfunds PC** |
 |---|---|
@@ -41,7 +41,7 @@ It is the **only** complete PC under €400 that passes every rule. The sweep we
 
 **What it is not.** At 18,824 multi-core it has about 41% of the throughput of the recommended €600 and €800 builds (A1/B1, i7-13700K, 45,590).
 - It runs Proxmox, Windows VMs and the network drive well.
-- CST runs (P-cores only: 6 here vs 8) will take roughly 1.5–2× longer.
+- CST runs will take roughly 1.5–2× longer. CST uses only P-cores: 8 vs 6 here, each about 25% faster per core, so about 1.7×.
 - Memory-bound FDTD/FEM runs gain much less from a faster CPU, because both machines have the same dual-channel DDR4. The openEMS benchmark on OpenBenchmarking gives 40 MCells/s for an i5-12400 vs 70 for an i9-13900K.
 
 €400 can't buy a 30,000+ CPU together with RAM, a board, a PSU and an SSD in today's market. The cheapest such parts sets are €570.18 (Ryzen 9 5900X) and €576.69 (sealed i5-13600K); the recommended i7-13700K set is €586.69 (see `report_600.md`).
@@ -54,7 +54,7 @@ It is the **only** complete PC under €400 that passes every rule. The sweep we
 |---|---|---|---|---|
 | 1 | Drive mirror: 2 × 2 TB CMR HDD | [WD Red Plus + WD Black, Wien 17](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/2tb-festplatten-1759125813/) (SMART screenshots: 0 bad sectors; 42,180 h and 16,752 h) | €105.70 if the seller accepts one €100 offer for both; €111.40 if bought as two orders | ZFS mirror for the network drive |
 | 2 | 64 GB RAM | [4 × 16 GB DDR4-2666, Arlsdorf (Carinthia)](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/64-gb-ddr4-ram-2666mhz-1774557909/), memtest 0 errors; ships as a €2.99 letter (carrier liability €50; PayLivery refunds you if it never arrives) | €192.99 | 64 GB. This replaces the 4 × 8 GB, which you can keep as spares. |
-| 3 | Faster CPU: i7-12700, 8P + 4E | [i7-12700 box with stock cooler, Graz](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/intel-core-1-7-12700-12-kern-cpu-1934965542/) | €229.70 | 29,755 / 3,840. 65 W base, up to 180 W turbo; the 450 W unit handles that with the GTX 1650 removed. Set PL1 to about 125 W because this board's power stage is weak. |
+| 3 | Faster CPU: i7-12700, 8P + 4E | [i7-12700 box with stock cooler, Graz](https://www.willhaben.at/iad/kaufen-und-verkaufen/d/intel-core-1-7-12700-12-kern-cpu-1934965542/) | €229.70 | 29,755 / 3,840. 65 W base, up to 180 W turbo; the 450 W unit handles that with the GTX 1650 removed. Set PL1 to about 125 W because this board's power stage is weak. Before paying, ask for a photo of the heatspreader showing "i7-12700" and S-spec SRL4Q (not a 12700F, which has no graphics). |
 
 This PC plus steps 1, 2 and 3 comes to €908.29 in total. That's more than the €800 build in `report.md`, which gets an i7-13700K and 64 GB for €779.68.
 
@@ -104,7 +104,7 @@ An i7-13700K is **not** a sensible upgrade for this PC, because the board's powe
 | [Dell OptiPlex 3000 SFF, i5-12500, 16 GB, refurbished (refurbed.at)](https://www.refurbed.at/p/dell-optiplex-3000-sff/301509/) | €447.05 | Over €400. Only 16 GB, and the SFF case can't take 2 HDDs. It does come with a shop warranty. |
 | [Lenovo IdeaCentre 5, Ryzen 7 5700G, 24 GB, Eferding](https://www.willhaben.at/iad/object?adId=1523651041) | €357.90 | Lenovo's spec sheet gives 2 slots and 32 GB max, so it can never reach 64 GB. Single-core 3,282 is below target. Proprietary board and PSU. |
 | Building from parts | ≥ €570 | The cheapest strong parts sets are €570.18 (Ryzen 9 5900X + board + 32 GB + PSU + cooler + SSD + display card) and €576.69 (sealed i5-13600K). The recommended i7-13700K set is €586.69. |
-| Used Xeon E5 v4 workstations (HP Z440, Dell T5810) | — (not priced) | Single-core ~2,050, barely half the target; you asked for strong single *and* multi. Most of the cheap ones are pickup-only. |
+| Used Xeon E5 v4 workstations (HP Z440, Dell T5810) | — (not priced) | Single-core ~2,050, about 60% of the single-core target; you asked for strong single *and* multi. Most of the cheap ones are pickup-only. |
 | Gaming PCs with big GPUs | — | They would need the GPU resold to fit the budget. You asked to minimise reselling. |
 
 ---
@@ -112,7 +112,7 @@ An i7-13700K is **not** a sensible upgrade for this PC, because the board's powe
 ## 6. Method and limits
 
 - **Sources:**
-  - Marketplaces: willhaben.at and kleinanzeigen.de (tier 2 only).
+  - Marketplaces: willhaben.at (tier 1) and kleinanzeigen.de (tier 2; none used).
   - Shops/refurbishers: DiTech.at and alternate.at (pages opened); alza.at (price from the geizhals.at offer list); refurbed.at, afbshop.de, itsco.de, lapstore.de, harlander.com, servershop24.de.
   - Not reachable from the research machine: eBay, leboncoin and Amazon product pages (Amazon prices come from geizhals.at offer lists).
 - **Shipping check:** every ad's shipping field and text was read by script, in German, Slovenian, Hungarian, Czech/Slovak and Italian. Pickup-only, no-shipping and domestic-only ads were removed.
