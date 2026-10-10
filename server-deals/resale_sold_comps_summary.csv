@@ -89,7 +89,6 @@ aio360,aio 360,360,60,sold,4,60.44,4,0,27,80.0
 aio240,aio 240,240,30,sold,10,30.89,10,0,23,50.0
 psu850,netzteil 850w,850,50,sold,25,54.0,25,0,31,90.0
 psu750,netzteil 750w,750,30,sold,27,34.03,27,0,35,55.0
-psu1000,netzteil 1000w,1000,15,sold,14,17.91,13,1,26,120.0
 nvme1tb,nvme 1tb,1\s*tb,120,sold,38,120.89,35,3,33,160.0
 nvme2tb,nvme 2tb,2\s*tb,215,sold,51,217.24,51,0,38,245.0
 case_lianli,lian li o11,o11,95,ask-only x0.85 (fewer than 3 sold/reserved),1,26.86,1,0,8,115.0
