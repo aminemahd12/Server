@@ -49,7 +49,7 @@ Your use: Proxmox, CST and other FDTD/FEM solvers, Windows VMs and a small NAS m
   - One drive bay.
 
 ## Not worth it (and why)
-- **Lenovo P360, i9-12900K (Stuttgart, €525):** great value, but the seller is in Germany and prefers pickup.
+- **Lenovo P360, i9-12900K (Stuttgart, €525):** sold, the seller confirmed on 10 Oct.
 - **Acer Predator Orion 3000 (Villach, €800):** 32 GB of DDR5 (64 GB costs €600+), needs its RTX 4060, and idles at 35–50 W. Option 1 gives 64 GB for about the same money.
 - **New office and workstation towers from shops:** €840–1,270 for 16–64 GB. Option 1 or 2 is better value.
 - **Pfunds i5-12400 PC (€397 shipped):** beaten by the Vienna HP Pro Tower (option 5) if you go to Vienna.
