@@ -1,0 +1,127 @@
+comp_key,query,must_regex,resale_eur,basis,sold_n,sold_median_eur,tradera_n,wh_reserved_n,ask_n,ask_median_eur
+ddr5_32,ddr5 32gb,ddr5.*32\s*gb|32\s*gb.*ddr5,400,sold,30,402.96,29,1,49,450.0
+ddr5_64,ddr5 64gb,ddr5.*64\s*gb|64\s*gb.*ddr5,680,sold,20,681.26,20,0,22,839.5
+ddr5_16,ddr5 16gb,ddr5.*16\s*gb|16\s*gb.*ddr5,220,sold,16,223.86,16,0,14,234.95
+ddr4_32,ddr4 32gb,ddr4.*32\s*gb|32\s*gb.*ddr4,180,sold,23,181.42,23,0,44,190.0
+ddr4_64,ddr4 64gb,ddr4.*64\s*gb|64\s*gb.*ddr4,280,sold,28,282.43,28,0,21,400.0
+ddr4_16,ddr4 16gb,ddr4.*16\s*gb|16\s*gb.*ddr4,55,sold,23,58.2,22,1,33,85.0
+rtx2060,rtx 2060,2060(?!\s*super),100,sold,29,102.08,29,0,27,180.0
+rtx2060s,rtx 2060 super,2060\s*super,135,sold,10,135.66,10,0,17,180.0
+rtx2070,rtx 2070,2070(?!\s*super),145,sold,22,147.75,21,1,17,180.0
+rtx2070s,rtx 2070 super,2070\s*super,135,sold,18,139.69,17,1,21,200.0
+rtx2080,rtx 2080,2080(?!\s*(super|ti)),195,sold,7,196.02,7,0,13,200.0
+rtx2080s,rtx 2080 super,2080\s*super,175,sold,10,179.72,9,1,14,242.0
+rtx2080ti,rtx 2080 ti,2080\s*ti,250,sold,13,254.22,13,0,18,300.0
+gtx1660s,gtx 1660 super,1660\s*super,70,sold,50,73.88,49,1,36,100.0
+gtx1660ti,gtx 1660 ti,1660\s*ti,70,sold,18,71.73,18,0,12,100.0
+gtx1650,gtx 1650,1650,40,sold,36,41.41,35,1,17,90.0
+gtx1080ti,gtx 1080 ti,1080\s*ti,135,sold,27,137.9,26,1,25,180.0
+gtx1070,gtx 1070,1070(?!\s*ti),60,sold,48,62.68,45,3,44,100.0
+gtx1080,gtx 1080,1080(?!\s*ti),85,sold,29,85.16,29,0,50,120.0
+rtx3050,rtx 3050,3050,135,sold,20,139.96,19,1,19,170.0
+rtx3060,rtx 3060 12gb,3060(?!\s*ti),260,sold,39,261.92,39,0,24,300.0
+rtx3060ti,rtx 3060 ti,3060\s*ti,230,sold,40,231.92,39,1,31,270.0
+rtx3070,rtx 3070,3070(?!\s*ti),260,sold,35,264.16,33,2,38,299.5
+rtx3070ti,rtx 3070 ti,3070\s*ti,275,sold,7,277.59,7,0,28,350.0
+rtx3080,rtx 3080,3080(?!\s*ti),355,sold,45,358.09,41,4,29,450.0
+rtx3080ti,rtx 3080 ti,3080\s*ti,440,sold,10,442.22,10,0,22,550.0
+rtx3090,rtx 3090,3090(?!\s*ti),1205,sold,43,1208.87,42,1,10,1375.0
+rtx4060,rtx 4060,4060(?!\s*ti),245,sold,16,246.25,15,1,13,350.0
+rtx4060ti,rtx 4060 ti,4060\s*ti,320,sold,14,324.83,13,1,12,404.5
+rtx4070,rtx 4070,4070(?!\s*(ti|super)),470,sold,12,473.02,12,0,9,570.0
+rtx4070s,rtx 4070 super,4070\s*super,540,sold,8,541.75,8,0,12,700.0
+rtx4070ti,rtx 4070 ti,4070\s*ti(?!\s*super),635,ask-only x0.85 (fewer than 3 sold/reserved),1,447.73,1,0,9,750.0
+rtx4070tis,rtx 4070 ti super,4070\s*ti\s*super,745,ask-only x0.85 (fewer than 3 sold/reserved),2,801.43,2,0,7,880.0
+rtx4080,rtx 4080,4080(?!\s*super),805,ask-only x0.85 (fewer than 3 sold/reserved),2,774.57,2,0,8,950.0
+rtx4080s,rtx 4080 super,4080\s*super,820,sold,3,823.82,3,0,12,1175.0
+rtx4090,rtx 4090,4090,2325,sold,15,2328.18,14,1,15,2900.0
+rtx5060ti,rtx 5060 ti,5060\s*ti,535,sold,26,537.27,24,2,17,600.0
+rtx5070,rtx 5070,5070(?!\s*ti),640,sold,23,644.73,22,1,12,749.5
+rtx5070ti,rtx 5070 ti,5070\s*ti,925,sold,22,926.8,21,1,19,1150.0
+rtx5080,rtx 5080,5080,1360,sold,22,1361.09,21,1,14,1525.0
+rx6600,rx 6600,6600(?!\s*xt),140,sold,10,142.29,9,1,10,200.0
+rx6600xt,rx 6600 xt,6600\s*xt,185,sold,10,187.6,10,0,15,230.0
+rx6650xt,rx 6650 xt,6650,185,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,9,220.0
+rx6700xt,rx 6700 xt,6700\s*xt,260,sold,12,261.07,12,0,10,305.0
+rx6750xt,rx 6750 xt,6750,285,sold,4,287.5,2,2,9,350.0
+rx6800,rx 6800,6800(?!\s*xt),310,sold,4,313.41,4,0,6,455.0
+rx6800xt,rx 6800 xt,6800\s*xt,380,sold (capped at AT/DE ask median),8,380.08,7,1,7,380.0
+rx6900xt,rx 6900 xt,69[05]0\s*xt,410,sold,14,413.39,14,0,9,450.0
+rx7600,rx 7600,7600(?!\s*xt),190,sold,11,191.36,11,0,7,305.0
+rx7700xt,rx 7700 xt,7700\s*xt,390,sold (capped at AT/DE ask median),3,394.0,3,0,4,390.0
+rx7800xt,rx 7800 xt,7800\s*xt,460,sold,8,461.16,8,0,12,527.5
+rx7900xt,rx 7900 xt,7900\s*xt(?!x),675,sold (capped at AT/DE ask median),4,703.65,4,0,10,675.0
+rx7900xtx,rx 7900 xtx,7900\s*xtx,825,sold,4,826.06,4,0,10,1000.0
+rx7900gre,rx 7900 gre,7900\s*gre,485,sold,3,488.38,3,0,0,
+rx9070xt,rx 9070 xt,9070\s*xt,670,sold,17,671.59,16,1,6,789.5
+z790_ddr5,z790,z790,175,sold (capped at AT/DE ask median),3,321.92,3,0,13,175.0
+z690_ddr5,z690,z690,170,ask-only x0.85 (fewer than 3 sold/reserved),1,376.09,1,0,6,200.0
+b760_ddr5,b760,b760,120,sold (capped at AT/DE ask median),3,225.65,3,0,7,120.0
+b660,b660,b660,120,ask-only x0.85 (fewer than 3 sold/reserved),1,243.21,1,0,2,142.5
+b650,b650,b650,100,ask-only x0.85 (fewer than 3 sold/reserved),2,100.64,1,1,17,120.0
+x670,x670,x670,315,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,3,375.0
+x570,x570,x570,165,sold,4,167.45,4,0,5,300.0
+b550,b550,b550,115,sold,7,115.96,7,0,11,130.0
+i5_12400,i5-12400,12400,85,sold,4,85.52,4,0,10,100.0
+i5_13400,i5-13400,13400,100,ask-only x0.85 (fewer than 3 sold/reserved),2,317.19,1,1,6,120.0
+i5_12600k,i5-12600k,12600k,120,sold,5,122.77,5,0,1,160.0
+i5_13600k,i5-13600k,13600k,205,sold,4,205.91,4,0,3,249.0
+i5_14600k,i5-14600k,14600k,185,sold,6,188.9,6,0,0,
+i7_12700k,i7-12700k,12700k,165,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,5,199.0
+i7_13700k,i7-13700k,13700k,280,ask-only x0.85 (fewer than 3 sold/reserved),1,268.64,1,0,5,330.0
+i7_14700k,i7-14700k,14700k,255,ask-only x0.85 (fewer than 3 sold/reserved),1,244.01,1,0,3,300.0
+i9_12900k,i9-12900k,12900k,215,ask-only x0.85 (fewer than 3 sold/reserved),2,317.89,2,0,4,254.5
+i9_13900k,i9-13900k,13900k,280,ask-only x0.85 (fewer than 3 sold/reserved),1,326.84,1,0,7,333.0
+i9_14900k,i9-14900k,14900k,355,sold,6,358.32,6,0,3,389.0
+r5_5600x,ryzen 5 5600x,5600x,110,sold (capped at AT/DE ask median),17,125.01,17,0,7,110.0
+r7_5800x3d,5800x3d,5800x3d,285,sold (capped at AT/DE ask median),6,317.89,6,0,7,285.0
+r9_5900x,ryzen 9 5900x,5900x(?!t),195,sold,7,197.0,7,0,7,230.0
+r9_5950x,ryzen 9 5950x,5950x,260,sold,4,263.04,4,0,1,250.0
+r5_7600,ryzen 5 7600,7600x?(?!\s*xt)\b,120,sold (capped at AT/DE ask median),4,125.72,3,1,17,120.0
+r7_7700x,ryzen 7 7700x,7700x?\b,165,sold (capped at AT/DE ask median),4,169.64,4,0,9,165.0
+r7_7800x3d,7800x3d,7800x3d,250,sold (capped at AT/DE ask median),12,266.4,12,0,10,250.0
+r7_9800x3d,9800x3d,9800x3d,335,sold (capped at AT/DE ask median),10,349.23,10,0,6,335.0
+r9_7900x,ryzen 9 7900x,7900x?\b,175,ask-only x0.85 (fewer than 3 sold/reserved),2,107.23,2,0,5,210.0
+r9_7950x,ryzen 9 7950x,7950x(?!3d),255,ask-only x0.85 (fewer than 3 sold/reserved),1,340.9,1,0,4,300.0
+r9_9900x,ryzen 9 9900x,9900x(?!3d),240,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,2,284.0
+r9_9950x,ryzen 9 9950x,9950x(?!3d),445,ask-only x0.85 (fewer than 3 sold/reserved),1,3000.0,0,1,2,527.5
+aio360,aio 360,360,60,sold,4,60.44,4,0,27,80.0
+aio240,aio 240,240,30,sold,10,30.89,10,0,23,50.0
+psu850,netzteil 850w,850,50,sold,25,54.0,25,0,31,90.0
+psu750,netzteil 750w,750,30,sold,27,34.03,27,0,35,55.0
+psu1000,netzteil 1000w,1000,15,sold,14,17.91,13,1,26,120.0
+nvme1tb,nvme 1tb,1\s*tb,120,sold,38,120.89,35,3,33,160.0
+nvme2tb,nvme 2tb,2\s*tb,215,sold,51,217.24,51,0,38,245.0
+case_lianli,lian li o11,o11,95,ask-only x0.85 (fewer than 3 sold/reserved),1,26.86,1,0,8,115.0
+case_nzxt,nzxt h7,h7,20,sold,13,20.6,13,0,3,72.0
+case_corsair4000,corsair 4000d,4000d,55,ask-only x0.85 (fewer than 3 sold/reserved),2,124.47,2,0,3,70.0
+case_fractal,fractal north,north,75,ask-only x0.85 (fewer than 3 sold/reserved),1,83.81,1,0,3,89.0
+x_ddr4_4x8,ddr4 32gb 4x8,4\s*x\s*8,155,sold,5,157.6,5,0,23,179.0
+x_rtx4060ti_8,rtx 4060 ti,4060\s*ti,315,sold,12,317.89,11,1,10,389.5
+x_ddr5_fury_32,kingston fury ddr5 32gb,ddr5.*32|32.*ddr5,385,sold,24,385.05,24,0,11,550.0
+x_z790p,prime z790-p,z790-?p\b,105,sold,3,107.45,3,0,1,85.0
+x_r7_5800x,ryzen 7 5800x,5800\s*x(?!3d),155,sold (capped at AT/DE ask median),14,174.17,14,0,8,157.5
+x_b760_ddr5,b760 ddr5,b760,80,sold,9,80.05,9,0,8,89.5
+x_rtx3070,rtx 3070,3070(?!\s*ti),260,sold,36,262.37,33,3,36,299.5
+x_rtx3080ti,rtx 3080 ti,3080\s*ti,440,sold,10,442.22,10,0,24,547.5
+x_gtx1650,gtx 1650,1650,40,sold,34,41.41,33,1,13,90.0
+x_ddr4_2x16_3600,ddr4 32gb 3600,ddr4.*32|32.*ddr4,180,sold,5,184.02,4,1,14,210.0
+x_ddr4_2x8,ddr4 16gb 2x8,2\s*x\s*8,75,sold,15,78.35,12,3,94,89.5
+x_i5_12400,intel i5-12400,i5.?12400(?!f),85,ask-only x0.85 (fewer than 3 sold/reserved),2,100.78,2,0,1,100.0
+x_a4000,nvidia rtx a4000,rtx a4000|a4000 16|quadro.*a4000|nvidia.*a4000,690,ask-only x0.85 (fewer than 3 sold/reserved),1,582.05,1,0,4,815.0
+x_t700,crucial t700 2tb,crucial.*t700|t700.*nvme|t700.*2\s*tb,,ask-only x0.85 (fewer than 3 sold/reserved),1,232.82,1,0,0,
+x_seasonic_1000,seasonic 1000w,seasonic.*1000|1000.*seasonic,125,ask-only x0.85 (fewer than 3 sold/reserved),1,53.73,1,0,1,149.0
+x_sp11_1000,be quiet straight power 1000w,straight power.*1000|1000.*straight power,95,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,6,114.5
+x_pure_loop_360,be quiet pure loop 360,pure loop.*360|360.*pure loop,75,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,3,90.0
+x_silent_loop_360,be quiet silent loop 360,silent loop.*360|360.*silent loop,70,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,5,85.0
+x_i7_12700kf,intel i7-12700kf,12700\s*k,155,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,2,184.5
+x_aorus_elite_z790,z790 aorus elite ax,z790.*aorus elite|aorus elite.*z790,90,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,3,110.0
+x_sn770_2tb,wd black sn770 2tb,sn770,220,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,3,260.0
+x_silentbase,be quiet silent base 802,silent base 80[12],100,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,3,120.0
+x_z790_tomahawk,msi z790 tomahawk,z790.*tomahawk,150,ask-only x0.85 (fewer than 3 sold/reserved),1,134.32,1,0,7,180.0
+x_r7_3800x,amd ryzen 7 3800x,3800\s*x,80,ask-only x0.85 (fewer than 3 sold/reserved),1,58.2,1,0,9,95.0
+x_ddr4_8gb_single,ddr4 8gb,8\s*gb,30,sold,7,33.22,7,0,16,40.0
+x_i5_13600k,intel i5-13600k,13600\s*k,205,sold,4,205.91,4,0,3,240.0
+x_silentbase_80x,silent base 80,silent base 80[012],,ask-only x0.85 (fewer than 3 sold/reserved),0,,0,0,0,
+x_enermax_240,aio 240,240,30,sold,10,30.89,10,0,21,50.0
+x_wd_black_sn850_1tb,sn850 1tb,sn850,145,ask-only x0.85 (fewer than 3 sold/reserved),1,134.32,1,0,9,175.0
