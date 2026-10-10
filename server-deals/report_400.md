@@ -8,45 +8,46 @@
 
 - **Harvesting is allowed.** You can buy a complete PC just to strip it and resell what you don't need. Every budget here is **net**: purchase price + delivery − realistic resale of the parts you don't keep. The cash you must pay first is shown separately.
 - **Resale values come from sold listings.** eBay blocks every request from this environment, so sold prices come from **Tradera**, a Swedish eBay-style site that shows real sale prices and dates (sales from 26 Aug–10 Oct 2026, converted at the ECB rate of 11.1675 SEK/EUR). They are cross-checked with willhaben ads marked *reserviert* and capped at the current Austrian/German asking-price median, because you would compete with those asks. Two or three independent checks re-derived every value. Selling with willhaben PayLivery costs a private seller nothing.
+- **willhaben's buyer-protection fee is now counted.** willhaben charges the buyer at least €0.99, from 4.5% of the item price (5% in its own example), on every PayLivery purchase. Every build below includes it at 5% as a separate line, which raises most totals by €5–30.
 - **Pickup in Klagenfurt and Villach now counts**, as you asked (marked *pickup*). Everything else must ship to Villach; pickup-only ads elsewhere are still excluded.
 - **Routes that start from a complete PC are tagged** *(prebuilt + upgrade)* or *(prebuilt, stripped)*, because you prefer buying a prebuilt. Every route is still ranked by net cost.
 - **Performance is sustained performance.** For 24/7 use in a warm room the CPU's power is capped, so multi-core scores are lower than PassMark's stock figures (sources in [How the numbers were made](#how-the-numbers-were-made)). Single-core is not affected.
 
-## The pick for €400: A1, the Klagenfurt PC rebuilt on a DDR4 board with 64 GB. €382.30 net
+## The pick for €400: A1, the Klagenfurt PC rebuilt on a DDR4 board with 64 GB. €388.29 net
 
 1. Collect a used gaming PC in Klagenfurt (willhaben, €750, i7-13700K + RX 7800 XT, no RAM) and a nearly new Seasonic 650 W PSU on the same trip.
 2. Keep the i7-13700K and its 500 GB NVMe SSD and rebuild them on a **new Gigabyte B760M DS3H DDR4** with **64 GB DDR4** (a €105.70 kit) and a Freezer 36.
 3. Sell the graphics card, the DDR5 board, the water cooler, the case and the old PSU.
 
-- **Net cost:** **€382.30**, €17.70 under budget, but only if at least €597.30 of the €615 resale comes in. If the GPU fetches only €430: €412.30. If only the GPU and the board sell: €467.30.
-- **If the €105.70 RAM kit is gone:** still €382.30, but with 32 GB: [2×16 GB DDR4-2933, Völkermarkt](https://www.willhaben.at/iad/object?adId=1602251551) (private seller Martin, posted 2026-10-08, €100 + €5.70 PayLivery Post up to 3 kg). 2 slots stay free for 64 GB later. Or 64 GB with the Allerheiligen ECC kit (€442.30) or the Arlsdorf kit (€469.59).
-- **Cash first:** €997.30. About €615 comes back as the parts sell.
+- **Net cost:** **€388.29**, €11.71 under budget, but only if at least €603.29 of the €615 resale comes in. If the GPU fetches only €430: €418.29. If only the GPU and the board sell: €473.29.
+- **If the €105.70 RAM kit is gone:** still €388.29, but with 32 GB: [2×16 GB DDR4-2933, Völkermarkt](https://www.willhaben.at/iad/object?adId=1602251551) (private seller Martin, posted 2026-10-08, €100 + €5.70 PayLivery Post up to 3 kg). 2 slots stay free for 64 GB later. Or 64 GB with the Allerheiligen ECC kit (€451.29) or the Arlsdorf kit (€480.08).
+- **Cash first:** €1,003.29. About €615 comes back as the parts sell.
 - **CPU:** i7-13700K with iGPU, about 40,000–42,000 multi-core at a 125–150 W cap, 4,325 single. That is about **2.2× the multi-core** of last round's €400 pick.
 - **RAM:** 64 GB in 4 slots; the board takes up to 128 GB.
-- **Storage:** 500 GB NVMe. Add the mirror later: €105.70 with WD drives (A1 → €488.00), €155.70 with IronWolf Pro (A1 → €538.00).
-- **Idle power / net + 4 years of electricity:** 20–35 W / €456–€559.
+- **Storage:** 500 GB NVMe. Add the mirror later: €110.70 with WD drives (A1 → €498.99), €163.20 with IronWolf Pro (A1 → €551.49), willhaben fee included.
+- **Idle power / net + 4 years of electricity:** 20–35 W / €462–€565.
 - **Purchases / items to sell:** 5 (2 pickups in Klagenfurt on one trip, 3 parcels) / 5.
 
 **The trade-off:** this meets your performance and 64 GB goals on a €400 budget, but you must pay about **€1,000** first and get €615 back by selling 5 items. The graphics card alone is €460 of that.
 
-**In your preferred style (buy a prebuilt and keep it):** **A2**, the Pfunds PC as it is: one parcel and €339.90 net. It has a much weaker CPU and 32 GB, and the only thing to sell is its GPU.
+**In your preferred style (buy a prebuilt and keep it):** **A2**, the Pfunds PC as it is: one parcel and €358.40 net. It has a much weaker CPU and 32 GB, and the only thing to sell is its GPU.
 
 ## All €400 options, ranked by net
 
 | # | Build | Net | Cash first |
 |---|---|---|---|
-| 1 | **A2** Pfunds PC as it is (sell the GTX 1650) | **€339.90** | €379.90 |
-| 2 | **A1** Klagenfurt PC: i7-13700K moved to a DDR4 board, 64 GB | **€382.30** | €997.30 |
-| 3 | **A1s** Klagenfurt PC, simplest version (keep its AIO, PSU and case; sell only the GPU and the board) | **€421.60** | €951.60 |
+| 1 | **A2** Pfunds PC as it is (sell the GTX 1650) | **€358.40** | €398.40 |
+| 2 | **A1** Klagenfurt PC: i7-13700K moved to a DDR4 board, 64 GB | **€388.29** | €1,003.29 |
+| 3 | **A1s** Klagenfurt PC, simplest version (keep its AIO, PSU and case; sell only the GPU and the board) | **€426.60** | €956.60 |
 
 - **A2** *(prebuilt, as it is)*: Intel Core i5-12400 (iGPU), 18,824 multi / 3,466 single; 32 GB DDR4 (4x8, all slots full); 1 TB SATA SSD. 1 purchase (1 parcel (willhaben PayLivery)), 1 item to sell. CPU (18,824 multi) far below your 30k target; 32 GB with all slots full.
-- **A1** *(prebuilt, stripped)*: Intel Core i7-13700K (iGPU), capped at 125–150 W, 40,000–42,000 multi / 4,325 single; 64 GB DDR4-2400 (4x16 ECC UDIMM, non-ECC mode); 500 GB M.2 from the PC. 5 purchases (2 pickups in Klagenfurt + 3 parcels), 5 items to sell. About €1,000 cash first; 5 items to sell; old microcode; must be tested before paying. If the €105.70 RAM kit is gone: €442.30 (Allerheiligen kit) or €469.59 (Arlsdorf kit).
-- **A1s** *(prebuilt, stripped)*: Intel Core i7-13700K (iGPU), capped at 125–150 W, 40,000–42,000 multi / 4,325 single; 64 GB DDR4-2400 (4x16 ECC UDIMM, non-ECC mode); 500 GB M.2 from the PC. 3 purchases (1 pickup + 2 parcels), 2 items to sell. €21.60 over; keeps an unbranded PSU and a water-cooler pump. If the €105.70 RAM kit is gone: €481.60 (Allerheiligen kit) or €508.89 (Arlsdorf kit).
+- **A1** *(prebuilt, stripped)*: Intel Core i7-13700K (iGPU), capped at 125–150 W, 40,000–42,000 multi / 4,325 single; 64 GB DDR4-2400 (4x16 ECC UDIMM, non-ECC mode); 500 GB M.2 from the PC. 5 purchases (2 pickups in Klagenfurt + 3 parcels), 5 items to sell. About €1,000 cash first; 5 items to sell; old microcode; must be tested before paying. If the €105.70 RAM kit is gone: €451.29 (Allerheiligen kit) or €480.08 (Arlsdorf kit).
+- **A1s** *(prebuilt, stripped)*: Intel Core i7-13700K (iGPU), capped at 125–150 W, 40,000–42,000 multi / 4,325 single; 64 GB DDR4-2400 (4x16 ECC UDIMM, non-ECC mode); 500 GB M.2 from the PC. 3 purchases (1 pickup + 2 parcels), 2 items to sell. €26.60 over; keeps an unbranded PSU and a water-cooler pump. If the €105.70 RAM kit is gone: €489.60 (Allerheiligen kit) or €518.39 (Arlsdorf kit).
 
 *"Sustained" means the multi-core score with the 24/7 power limit from the [setup checklist](#setup-checklist-for-the-intel-builds). Single-core is not affected.*
 
 **Over budget, but worth knowing:**
-- **B4** from the €600 report, €506.30: the Pfunds PC with an i7-13700KF swapped in. 3 Austrian parcels and 1 item to sell, about 36–40k sustained, 32 GB.
+- **B4** from the €600 report, €535.04: the Pfunds PC with an i7-13700KF swapped in. 3 Austrian parcels and 1 item to sell, about 36–40k sustained, 32 GB.
 
 All €400 builds use the CPU's iGPU. If you later fit an F/KF CPU, use a UEFI-capable card such as the €40.70 GT 1030 from the €600 report.
 
@@ -90,7 +91,8 @@ All €400 builds use the CPU's iGPU. If you later fit an F/KF CPU, use a UEFI-c
   *private (Johannes, since 2011), 1050 Wien, posted 2026-10-10; working, from a running system; sold without warranty. Delivery: PayLivery Post up to 3 kg (seller ships only, no pickup).*
 - **Arctic Freezer 36 (heatsink never mounted)**: €15.00 + €5.70 delivery = **€20.70** ([willhaben 1153939913](https://www.willhaben.at/iad/object?adId=1153939913))
   *private (Emma), 2230 Gänserndorf, posted 2026-09-24; heatsink unused. Delivery: PayLivery Post up to 3 kg.*
-- **Cash out: €997.30**
+- **willhaben buyer-protection fee:** €5.99 (5% of each PayLivery item's price, minimum €0.99: willhaben's published rate; the exact amount is shown at checkout)
+- **Cash out: €1,003.29**
 
 **Resell:**
 
@@ -112,7 +114,7 @@ All €400 builds use the CPU's iGPU. If you later fit an F/KF CPU, use a UEFI-c
 
 _Of the €615 resale, €155 rests on thin, ask-only, comparable or nominal data; the rest is from 3 or more sales of the item._
 
-**Arithmetic:** cash out €997.30 − resale €615 = **€382.30 net**. Idle about 20–35 W, so 4 years of 24/7 power in Morocco cost about €74–€176. Net + 4 years of power: **€456–€559**.
+**Arithmetic:** cash out €1,003.29 − resale €615 = **€388.29 net**. Idle about 20–35 W, so 4 years of 24/7 power in Morocco cost about €74–€176. Net + 4 years of power: **€462–€565**.
 
 **Buying order:**
 1. Once you approve contacting anyone, ask seller 'bo' whether the PC is still for sale, whether it can be tested, and for a pickup date.
@@ -138,7 +140,7 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
 - **If the resale falls short:**
   - The €460 RX 7800 XT value rests on 8 sales; the exact Sapphire Pulse model sold once at €430.
   - The other €155 rests on thin, ask-only or nominal data.
-  - If the GPU fetches only €430, the net is €412.30. If only the GPU (at €430) and the board sell, it is €497.30. Over €400.
+  - If the GPU fetches only €430, the net is €418.29. If only the GPU (at €430) and the board sell, it is €503.29. Over €400.
 - **No buyer protection:** a pickup has none, so test before paying.
 - **The seller may split it up.** They also list a Z790 board, so the PC could get parted out. The ad has been up since 15 Sep.
 - **The BC-650** is 80 PLUS Bronze, bought 12.08.2026 with an invoice, from a new seller account (Aug 2026). If you prefer, keep the PC's own 750 W PSU (brand not stated) and sell nothing for it; the net rises by €5.
@@ -167,7 +169,8 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
 
 - **Pfunds PC: i5-12400, MSI PRO B760M-P DDR4, 32 GB (4x8) DDR4, GTX 1650, 1 TB SATA SSD, be quiet! System Power 7 450 W, Win 11 Pro**: €370.00 + €9.90 delivery = **€379.90** ([willhaben 828154053](https://www.willhaben.at/iad/object?adId=828154053))
   *private (Aaron), 6542 Pfunds, Tirol, posted 2026-10-09; used, working, sold without warranty. Delivery: willhaben PayLivery Post up to 31.5 kg.*
-- **Cash out: €379.90**
+- **willhaben buyer-protection fee:** €18.50 (5% of each PayLivery item's price, minimum €0.99: willhaben's published rate; the exact amount is shown at checkout)
+- **Cash out: €398.40**
 
 **Resell:**
 
@@ -179,7 +182,7 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
 *Evidence:*
 - Zotac GTX 1650 4 GB: GTX 1650: Tradera sold n=34, median 41.64; a willhaben one reserved at 40 within 2 days
 
-**Arithmetic:** cash out €379.90 − resale €40 = **€339.90 net**. Idle about 20–35 W, so 4 years of 24/7 power in Morocco cost about €74–€176. Net + 4 years of power: **€414–€516**.
+**Arithmetic:** cash out €398.40 − resale €40 = **€358.40 net**. Idle about 20–35 W, so 4 years of 24/7 power in Morocco cost about €74–€176. Net + 4 years of power: **€432–€535**.
 
 **Risks:**
 - The CPU (18,824 / 3,466) is far below your 30k multi-core target.
@@ -195,7 +198,7 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
   - BIOS version?
   - Can you pack it with the GPU secured for PayLivery?
 
-### A1s: Klagenfurt PC, simplest version (€21.60 over)
+### A1s: Klagenfurt PC, simplest version (€26.60 over)
 
 *(prebuilt, stripped)* Like A1, but you keep the PC's own water cooler, 750 W PSU and case, and sell only the RX 7800 XT and the DDR5 board.
 
@@ -209,7 +212,8 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
   *shop DiTech.at, AT shop, in stock; new, in stock (1 unit in the shipping warehouse on 10 Oct). Delivery: DiTech.at, free delivery in AT from €49.*
 - **64 GB DDR4-2400 ECC UDIMM (4x16 GB Kingston KTD-PE424E/16G, 2Rx8), runs in non-ECC mode on the DS3H**: €100.00 + €5.70 delivery = **€105.70** ([willhaben 1085665164](https://www.willhaben.at/iad/object?adId=1085665164))
   *private (Johannes, since 2011), 1050 Wien, posted 2026-10-10; working, from a running system; sold without warranty. Delivery: PayLivery Post up to 3 kg (seller ships only, no pickup).*
-- **Cash out: €951.60**
+- **willhaben buyer-protection fee:** €5.00 (5% of each PayLivery item's price, minimum €0.99: willhaben's published rate; the exact amount is shown at checkout)
+- **Cash out: €956.60**
 
 **Resell:**
 
@@ -225,7 +229,7 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
 
 _Of the €530 resale, €70 rests on thin, ask-only, comparable or nominal data; the rest is from 3 or more sales of the item._
 
-**Arithmetic:** cash out €951.60 − resale €530 = **€421.60 net**. Idle about 22–38 W, so 4 years of 24/7 power in Morocco cost about €81–€192. Net + 4 years of power: **€503–€613**.
+**Arithmetic:** cash out €956.60 − resale €530 = **€426.60 net**. Idle about 22–38 W, so 4 years of 24/7 power in Morocco cost about €81–€192. Net + 4 years of power: **€508–€618**.
 
 **Buying order:**
 1. Once you approve contacting anyone, ask seller 'bo' whether the PC is still for sale, whether it can be tested, and for a pickup date.
@@ -245,7 +249,7 @@ _Of the €530 resale, €70 rests on thin, ask-only, comparable or nominal data
 
 Plan to be in Austria for 2–4 weeks after the build while the parts sell. Whatever doesn't sell adds to the net.
 
-**Risks:** as A1, plus an unbranded PSU and a water-cooler pump running 24/7. If the GPU fetches only €430, the net is €451.60.
+**Risks:** as A1, plus an unbranded PSU and a water-cooler pump running 24/7. If the GPU fetches only €430, the net is €456.60.
 
 **Questions for the sellers (only once you decide to buy):**
 
@@ -277,7 +281,7 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
   - An air cooler (Freezer 36) instead of the donor's water cooler, because a pump is one more thing to fail in a remote box.
   - A known, nearly new Seasonic 650 W (Bronze) instead of the donor's unbranded 750 W.
   - Your own ATX case.
-- **Buying style:** the Klagenfurt PC is itself a prebuilt that you strip and keep only the CPU and SSD from. The Pfunds PC as it is (A2) is €42.40 cheaper and only one parcel, but its i5-12400 (18,824) misses your 30k multi-core target and it has 32 GB. A1 meets both goals.
+- **Buying style:** the Klagenfurt PC is itself a prebuilt that you strip and keep only the CPU and SSD from. The Pfunds PC as it is (A2) is €29.89 cheaper and only one parcel, but its i5-12400 (18,824) misses your 30k multi-core target and it has 32 GB. A1 meets both goals.
 
 ## Close, but not recommended
 
@@ -308,8 +312,8 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
    - **Kingston kit (DS3H builds):** 4×16 GB Kingston KTD-PE424E (DDR4-2400 ECC UDIMM, 2Rx8), €100 + €5.70, posted today.
      - Gigabyte's spec for the B760M DS3H DDR4 lists ECC UDIMM 1Rx8/2Rx8 as supported. It runs as normal memory, with no error correction (real ECC would need a W680 board). Bandwidth is 38.4 GB/s.
    - **If it sells, two fallbacks:**
-     - a second ECC kit, 4×16 GB Samsung DDR4-2133, [willhaben 1153528073](https://www.willhaben.at/iad/object?adId=1153528073), Allerheiligen, €165.70 delivered (+€60.00). It gives 34.1 GB/s, and the seller account is new (30 Sep 2026).
-     - the Arlsdorf non-ECC kit, €192.99 (+€87.29), 42.7 GB/s.
+     - a second ECC kit, 4×16 GB Samsung DDR4-2133, [willhaben 1153528073](https://www.willhaben.at/iad/object?adId=1153528073), Allerheiligen, €165.70 delivered (+€63.00 including willhaben's fee). It gives 34.1 GB/s, and the seller account is new (30 Sep 2026).
+     - the Arlsdorf non-ECC kit, €192.99 (+€91.79 including willhaben's fee), 42.7 GB/s.
    - **Other boards:** the ECC kits aren't confirmed on the MSI boards (Pfunds, Dörfla) or on AM4, so those builds use the Arlsdorf kit.
    - **Bandwidth:** all of these are 17–33% below DDR4-3200/3600, which matters for FDTD.
 6. **Drives.** The HDD mirror listing is one ad with several 2 TB drives, so ask the seller to put two in one PayLivery parcel (willhaben's *Preisvorschlag*).
@@ -325,7 +329,9 @@ Plan to be in Austria for 2–4 weeks after the build while the parts sell. What
 
 - **Prices and delivery:**
   - Every listing in the build cards and near-miss tables was opened and re-opened on 10 Oct 2026.
-  - Delivery costs are the ad's own willhaben PayLivery option or the shop's tariff. Any PayLivery buyer service fee appears only at checkout and is *not shown* here.
+  - Delivery costs are the ad's own willhaben PayLivery option or the shop's tariff.
+  - **willhaben's buyer-protection fee is included** as its own line in every build: willhaben's help page (updated 8 Oct 2026) says the buyer pays *"mindestens 0,99 € bzw. ab 4,5% vom Artikelpreis (bis max. 49,99€)"*, and its example uses 5%, so 5% (minimum €0.99) is counted on each PayLivery item. The exact fee is shown at checkout. Pickups, shops and foreign sellers have no such fee.
+  - Near-miss tables do **not** yet include this fee on the add-on parts (about €10–25 per build).
   - Where an ad shows **no** delivery cost, the report says *not shown*.
   - For tier-2 sellers the carrier tariff is marked **estimate**: DHL DE→AT online is €45.49 up to 31.5 kg (€22.49 up to 10 kg), plus about €14 insurance above €500.
 - **Resale:** `resale.py` combines Tradera **sold** items from the last 45 days, willhaben *reserviert* ads, and the AT/DE asking-price median as a cap.
