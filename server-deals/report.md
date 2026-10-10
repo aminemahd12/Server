@@ -1,5 +1,13 @@
 # Home server deal research — Villach → Morocco
 
+> **⚠ Being rewritten (10 Oct 2026).** Several listings below say pickup only or offer no shipping. These include Build 1 (Waldkraiburg 12900K PC), the Stralsund 5950X, the Villach 3900X and the Röschitz 5900X. They have been removed from [`deals.csv`](deals.csv) and listed with the reason in [`excluded_no_shipping.csv`](excluded_no_shipping.csv). The builds are being redone with these rules:
+> - only shippable listings, Austrian sellers and shops that ship to Austria first;
+> - upfront cash without relying on resale;
+> - strong single- and multi-core CPUs.
+>
+> A separate €600 report will follow. Don't buy from the builds below until the rewrite is in.
+
+
 *Listings were checked on 9–10 Oct 2026 in two independent passes. Every listing used in the three builds and in the §1b comparison was re-opened on 10 Oct and was still active (`date_checked` = 2026-10-10). Prices are as listed and shipping is to Villach. "Net" = price + shipping − realistic resale of the parts you don't need. Pickup trips are not counted in net.*
 
 **Every listing is in [`deals.csv`](deals.csv)**: 378 rows, each opened, none reserved or sold.
